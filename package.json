@@ -1,0 +1,16 @@
+{
+  "name": "freadit-api",
+  "version": "0.0.0",
+  "scripts": {
+    "start:api": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "debug": "^4.1.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4"
+  }
+}
