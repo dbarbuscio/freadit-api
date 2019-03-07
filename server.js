@@ -1,7 +1,9 @@
-require('dotenv').config();
+
 const app = require("./app");
 const debug = require("debug")("freadit-api");
 const http = require("http");
+
+require('dotenv').config();
 
 const normalizePort = val => {
   var port = parseInt(val, 10);
